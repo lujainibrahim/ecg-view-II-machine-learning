@@ -69,7 +69,7 @@ With age and sex:
 - [RNN]() trained on ECG-ViEW II
 - [XGBoost]() trained on ECG-ViEW II
 
-Witout age and sex: 
+Without age and sex: 
 - [CNN](https://github.com/lujainibrahim/ecg-view-machine-learning/blob/master/CNN/CNN_noagesex.ipynb) trained on ECG-ViEW II
 - [RNN]() trained on ECG-ViEW II
 - [XGBoost]() trained on ECG-ViEW II
