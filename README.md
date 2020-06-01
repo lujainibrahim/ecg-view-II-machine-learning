@@ -5,61 +5,40 @@ This repository is the official implementation of [Explainable Prediction of Acu
 
 ## Requirements
 
-To install requirements:
+* To install Python 3, follow these [instructions](https://realpython.com/installing-python/). 
+* To install Pip, follow these [instructions](https://pip.pypa.io/en/stable/installing/).
+* To install Jupyter Lab/Notebook, follow these [instructions](https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html). To run Jupyter Lab/Notebook, follow these [instructions](https://jupyter.readthedocs.io/en/latest/running.html). 
+
+* To install requirements:
 
 ```setup
 pip install -r requirements.txt
 ```
 
-> 📋Describe how to set up the environment, e.g. pip/conda/docker commands, download datasets, etc...
+* To obtain the ECG ViEW II dataset, please use this [form](http://ecgview.org/ECG_ViEW.asp). After recieving the unprocessed files, follow the [data processing](https://github.com/lujainibrahim/ecg-view-machine-learning#data-processing) steps below. 
+
 
 ## Data Processing
 
-To process the ECG-ViEW dataset as it is done in the paper, run this command:
+To process the ECG-ViEW II dataset as it is done in the paper (with robust scaling and SMOTE), run this [notebook]().
 
-```train
-python processing.py --input-data <path_to_data> --alpha 10 --beta 20
-```
-
+This notebook will produce two csv files, test.csv and train.csv, that you can then train/evaluate models with. If you would like to use the train and test files we used to obtain/reproduce our results, those can be found [here](https://drive.google.com/drive/folders/1-WcMjYm-jhuvE1vDpW76HkYW-xrOuPQ6?usp=sharing).
 
 ## Training
 
-To train the CNN model in the paper, run this command:
+* To train the CNN model in the paper, run this [notebook]().
+* To train the RNN model in the paper, run this [notebook]().
+* To train the XGBoost model in the paper, run this [notebook]().
 
-```train
-python train.py --input-data <path_to_data> --alpha 10 --beta 20
-```
-
-To train the RNN model in the paper, run this command:
-
-```train
-python train.py --input-data <path_to_data> --alpha 10 --beta 20
-```
-
-To train the XGBoost model in the paper, run this command:
-
-```train
-python train.py --input-data <path_to_data> --alpha 10 --beta 20
-```
-> 📋Describe how to train the models, with example commands on how to train the models in your paper, including the full training procedure and appropriate hyperparameters.
+These notebooks will train the model and save it in a file that can be imported for evaluation later (described in the next section). 
 
 ## Evaluation
 
-To evaluate the CNN on the processed ECG-ViEW II data, run:
+* To evaluate the CNN on the processed ECG-ViEW II data, run this [notebook]().
+* To evaluate the RNN on the processed ECG-ViEW II data, run this [notebook]().
+* To evaluate the XGBoost on the processed ECG-ViEW II data, run this [notebook]().
 
-```eval
-python eval.py --model-file mymodel.pth --benchmark imagenet
-```
-To evaluate the RNN on the processed ECG-ViEW II data, run:
-
-```eval
-python eval.py --model-file mymodel.pth --benchmark imagenet
-```
-To evaluate the XGBoost on the processed ECG-ViEW II data, run:
-
-```eval
-python eval.py --model-file mymodel.pth --benchmark imagenet
-```
+To reproduce the results in the paper, use the [pretrained models](https://github.com/lujainibrahim/ecg-view-machine-learning#pre-trained-models) and this [data](https://drive.google.com/drive/folders/1-WcMjYm-jhuvE1vDpW76HkYW-xrOuPQ6?usp=sharing). 
 
 ## Pre-trained Models
 
@@ -69,12 +48,10 @@ With age and sex:
 - [RNN]() trained on ECG-ViEW II
 - [XGBoost]() trained on ECG-ViEW II
 
-Without age and sex: 
+Witout age and sex: 
 - [CNN](https://github.com/lujainibrahim/ecg-view-machine-learning/blob/master/CNN/CNN_noagesex.ipynb) trained on ECG-ViEW II
 - [RNN]() trained on ECG-ViEW II
 - [XGBoost]() trained on ECG-ViEW II
-
-The ECG-ViEW II data was processed with robust scaling and SMOTE. Follow this [data processing notebook]() to obtain the processed data from the original csv files.
 
 ## Results
 
