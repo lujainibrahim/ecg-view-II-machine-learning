@@ -8,7 +8,7 @@ This repository is the official implementation of [Explainable Prediction of Acu
 * To install Python 3, follow these [instructions](https://realpython.com/installing-python/). 
 * To install Pip, follow these [instructions](https://pip.pypa.io/en/stable/installing/).
 * To install Jupyter Lab/Notebook, follow these [instructions](https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html). To run Jupyter Lab/Notebook, follow these [instructions](https://jupyter.readthedocs.io/en/latest/running.html). 
-* To set up a virtual environment, follow these [instructions](https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/26/python-virtual-env/)
+* To set up a virtual environment, follow these [instructions](https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/26/python-virtual-env/).
 
 * To install requirements:
 
