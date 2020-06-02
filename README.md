@@ -38,7 +38,7 @@ These notebooks will train the model and save it in a file that can be imported 
 * To evaluate the RNN on the processed ECG-ViEW II data, run this [notebook](https://github.com/lujainibrahim/ecg-view-machine-learning/blob/master/RNN/RNN_evaluate.ipynb).
 * To evaluate the XGBoost on the processed ECG-ViEW II data, run this [notebook](https://github.com/lujainibrahim/ecg-view-machine-learning/blob/master/XGBoost/XGBoost_evaluate.ipynb).
 
-To reproduce the results in the paper, use the [pretrained models](https://github.com/lujainibrahim/ecg-view-machine-learning#pre-trained-models) and this [data](https://drive.google.com/drive/folders/1-WcMjYm-jhuvE1vDpW76HkYW-xrOuPQ6?usp=sharing). Additionally, to train and evaluate models without the age and sex features, please see these folders ([CNN](https://github.com/lujainibrahim/ecg-view-machine-learning/tree/master/CNN/no%20agesex), [RNN])
+To reproduce the results in the paper, use the [pretrained models](https://github.com/lujainibrahim/ecg-view-machine-learning#pre-trained-models) and this [data](https://drive.google.com/drive/folders/1-WcMjYm-jhuvE1vDpW76HkYW-xrOuPQ6?usp=sharing). Additionally, to train and evaluate models without the age and sex features, please see these folders ([CNN](https://github.com/lujainibrahim/ecg-view-machine-learning/tree/master/CNN/no%20agesex), [RNN](https://github.com/lujainibrahim/ecg-view-machine-learning/blob/master/RNN/no%20agesex/rnn_ecgview_noagesex_pretrained.h5))
 
 ## Pre-trained Models
 
