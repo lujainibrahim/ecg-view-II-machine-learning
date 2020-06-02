@@ -28,7 +28,7 @@ This notebook will produce two csv files, test.csv and train.csv, that you can t
 
 * To train the CNN model in the paper, run this [notebook](https://github.com/lujainibrahim/ecg-view-machine-learning/blob/master/CNN/CNN_train.ipynb).
 * To train the RNN model in the paper, run this [notebook](https://github.com/lujainibrahim/ecg-view-machine-learning/blob/master/RNN/RNN_train.ipynb).
-* To train the XGBoost model in the paper, run this [notebook]().
+* To train the XGBoost model in the paper, run this [notebook](https://github.com/lujainibrahim/ecg-view-machine-learning/blob/master/XGBoost/XGBoost_train.ipynb).
 
 These notebooks will train the model and save it in a file that can be imported for evaluation later (described in the next section). 
 
@@ -36,22 +36,22 @@ These notebooks will train the model and save it in a file that can be imported 
 
 * To evaluate the CNN on the processed ECG-ViEW II data, run this [notebook](https://github.com/lujainibrahim/ecg-view-machine-learning/blob/master/CNN/CNN_evaluate.ipynb).
 * To evaluate the RNN on the processed ECG-ViEW II data, run this [notebook](https://github.com/lujainibrahim/ecg-view-machine-learning/blob/master/RNN/RNN_evaluate.ipynb).
-* To evaluate the XGBoost on the processed ECG-ViEW II data, run this [notebook]().
+* To evaluate the XGBoost on the processed ECG-ViEW II data, run this [notebook](https://github.com/lujainibrahim/ecg-view-machine-learning/blob/master/XGBoost/XGBoost_evaluate.ipynb).
 
-To reproduce the results in the paper, use the [pretrained models](https://github.com/lujainibrahim/ecg-view-machine-learning#pre-trained-models) and this [data](https://drive.google.com/drive/folders/1-WcMjYm-jhuvE1vDpW76HkYW-xrOuPQ6?usp=sharing). Additionally, to train and evaluate models without the age and sex features, please see these folders ([CNN](https://github.com/lujainibrahim/ecg-view-machine-learning/tree/master/CNN/no%20agesex), [RNN](https://github.com/lujainibrahim/ecg-view-machine-learning/tree/master/RNN/no%20agesex), [XGBoost]()).
+To reproduce the results in the paper, use the [pretrained models](https://github.com/lujainibrahim/ecg-view-machine-learning#pre-trained-models) and this [data](https://drive.google.com/drive/folders/1-WcMjYm-jhuvE1vDpW76HkYW-xrOuPQ6?usp=sharing). Additionally, to train and evaluate models without the age and sex features, please see these folders ([CNN](https://github.com/lujainibrahim/ecg-view-machine-learning/tree/master/CNN/no%20agesex), [RNN])
 
 ## Pre-trained Models
 
 You can download pretrained models here:
 With age and sex: 
-- [CNN](https://github.com/lujainibrahim/ecg-view-machine-learning/blob/master/CNN/cnn_ecgview.h5) trained on ECG-ViEW II
-- [RNN](https://github.com/lujainibrahim/ecg-view-machine-learning/blob/master/RNN/model21_5_1_final.h5) trained on ECG-ViEW II
+- [CNN](https://github.com/lujainibrahim/ecg-view-machine-learning/blob/master/CNN/cnn_ecgview_pretrained.h5) trained on ECG-ViEW II
+- [RNN](https://github.com/lujainibrahim/ecg-view-machine-learning/blob/master/RNN/rnn_ecgview_pretrained.h5) trained on ECG-ViEW II
 - [XGBoost]() trained on ECG-ViEW II
 
 Witout age and sex: 
-- [CNN](https://github.com/lujainibrahim/ecg-view-machine-learning/blob/master/CNN/CNN_noagesex.ipynb) trained on ECG-ViEW II
-- [RNN](https://github.com/lujainibrahim/ecg-view-machine-learning/blob/master/RNN/no%20agesex/model_noageandsex1_final.h5) trained on ECG-ViEW II
-- [XGBoost]() trained on ECG-ViEW II
+- [CNN](https://github.com/lujainibrahim/ecg-view-machine-learning/blob/master/CNN/no%20agesex/cnn_ecgview_noagesex_pretrained.h5) trained on ECG-ViEW II
+- [RNN](https://github.com/lujainibrahim/ecg-view-machine-learning/blob/master/RNN/no%20agesex/rnn_ecgview_noagesex_pretrained.h5) trained on ECG-ViEW II
+- [XGBoost](https://github.com/lujainibrahim/ecg-view-machine-learning/blob/master/XGBoost/XGBoost_pretrained.model) trained on ECG-ViEW II
 
 ## Results
 
