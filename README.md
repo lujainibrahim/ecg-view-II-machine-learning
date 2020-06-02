@@ -63,11 +63,12 @@ Our models achieve the following performances:
 | ------------------ |---------------- | -------------- | -------------- | -------------- | -------------- |
 |CNN   |    89.9 %         |     89.0 %       |90.7 %|88.1 %|93.2%|
 |RNN   |    84.6 %         |     82.2 %       |82.9 %|78.0 %|87.8 %|
-|XGBoost   |    97.5 %         |     97.2 %       |96.6 %|93.2 %|99.3 %|
+|XGBoost   |    97.5 %         |     97.1 %       |96.5 %|93.5 %|99.4 %|
 
 
 ### Shapley Analysis 
-> 📋Include a table of results from your paper, and link back to the leaderboard for clarity and context. If your main result is a figure, include that figure and link to the command or notebook to reproduce it. 
+
+Shapley analysis on the XGBoost model shows that age, ACCI, and QRS duration are the most crucial variables in the prediction of the onset of AMI, while sex is of relatively less importance. The Shapley analysis is shown to be a promising technique to uncover the intricacies and mechanisms of the prediction model, leading to higher degree of interpretation and transparency.
 
 ## Contributing
 
