@@ -71,6 +71,16 @@ Our models achieve the following performances:
 
 Shapley analysis on the XGBoost model shows that age, ACCI, and QRS duration are the most crucial variables in the prediction of the onset of AMI, while sex is of relatively less importance. The Shapley analysis is shown to be a promising technique to uncover the intricacies and mechanisms of the prediction model, leading to higher degree of interpretation and transparency.
 
+The local explanation summary (beeswarm) plot gives an overview of the impact of features on the prediction, with each dot representing the Shapley value of every feature for all samples.
+<p align="center">
+<img src="XGBoost/Shapley_Local-Explanation-Summary.png" width="500">
+</p>
+
+The global feature importance plot shows the average absolute of the Shapley values over the whole testing dataset. Age (Birthyeargroup), ACCI, and QRS duration were observed to be the most important features for the prediction. 
+<p align="center">
+<img src="XGBoost/Shapley_Global-Feature-Importance.png" width="500" class="center">
+</p>
+
 ## Contributing
 
 > 📋Pick a licence and describe how to contribute to your code repository. 
