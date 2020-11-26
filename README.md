@@ -1,6 +1,6 @@
 # Explainable Prediction of Acute Myocardial Infarction using Machine Learning and Shapley Values
 
-This repository is the official implementation of [Explainable Prediction of Acute Myocardial Infarction using Machine Learning and Shapley Values](). 
+This repository is the official implementation of [Explainable Prediction of Acute Myocardial Infarction using Machine Learning and Shapley Values](https://ieeexplore.ieee.org/document/9268965). 
 
 
 ## Requirements
