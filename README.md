@@ -23,7 +23,7 @@ pip3 install -r requirements.txt
 
 To process the ECG-ViEW II dataset as it is done in the paper (with robust scaling and SMOTE), run this [notebook](https://github.com/lujainibrahim/ecg-view-machine-learning/blob/master/data%20processing/data_processing.ipynb).
 
-This notebook will produce two csv files, test.csv and train.csv, that you can then train/evaluate models with. If you would like to use the train and test files we used to obtain/reproduce our results, those can be found [here]().
+This notebook will produce two csv files, test.csv and train.csv, that you can then train/evaluate models with.
 
 ## Training
 
@@ -39,7 +39,7 @@ These notebooks will train the model and save it in a file that can be imported 
 * To evaluate the RNN on the processed ECG-ViEW II data, run this [notebook](https://github.com/lujainibrahim/ecg-view-machine-learning/blob/master/RNN/RNN_evaluate.ipynb).
 * To evaluate the XGBoost on the processed ECG-ViEW II data, run this [notebook](https://github.com/lujainibrahim/ecg-view-machine-learning/blob/master/XGBoost/XGBoost_evaluate.ipynb).
 
-To reproduce the results in the paper, use the [pretrained models](https://github.com/lujainibrahim/ecg-view-machine-learning#pre-trained-models) and this [data](). Additionally, to train and evaluate models without the age and sex features, please see these folders ([CNN](https://github.com/lujainibrahim/ecg-view-machine-learning/tree/master/CNN/no%20agesex), [RNN](https://github.com/lujainibrahim/ecg-view-machine-learning/blob/master/RNN/no%20agesex/rnn_ecgview_noagesex_pretrained.h5))
+To reproduce the results in the paper, use the [pretrained models](https://github.com/lujainibrahim/ecg-view-machine-learning#pre-trained-models). Additionally, to train and evaluate models without the age and sex features, please see these folders ([CNN](https://github.com/lujainibrahim/ecg-view-machine-learning/tree/master/CNN/no%20agesex), [RNN](https://github.com/lujainibrahim/ecg-view-machine-learning/blob/master/RNN/no%20agesex/rnn_ecgview_noagesex_pretrained.h5)).
 
 ## Pre-trained Models
 
@@ -49,7 +49,7 @@ With age and sex:
 - [RNN](https://github.com/lujainibrahim/ecg-view-machine-learning/blob/master/RNN/rnn_ecgview_pretrained.h5) trained on ECG-ViEW II
 - [XGBoost]() trained on ECG-ViEW II
 
-Witout age and sex: 
+Without age and sex: 
 - [CNN](https://github.com/lujainibrahim/ecg-view-machine-learning/blob/master/CNN/no%20agesex/cnn_ecgview_noagesex_pretrained.h5) trained on ECG-ViEW II
 - [RNN](https://github.com/lujainibrahim/ecg-view-machine-learning/blob/master/RNN/no%20agesex/rnn_ecgview_noagesex_pretrained.h5) trained on ECG-ViEW II
 - [XGBoost](https://github.com/lujainibrahim/ecg-view-machine-learning/blob/master/XGBoost/XGBoost_pretrained.model) trained on ECG-ViEW II
